@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'Century Std';
+    src: url('./CenturyStd-BookCondensed.woff2') format('woff2'),
+      url('./CenturyStd-BookCondensed.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+  }
+
+body {
+    background-color: #fffcf5;
+}
+
+h5 {
+    font-size: 3rem;
+    padding:0;
+    margin:0;
+}
+
+p {
+   font-size: 1.5rem;
+   margin-top: none;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+}
+
+#navBar {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #faf5e7;
+}
+
+.navButton {
+    border: none;
+    background-color: #faf5e7;
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+
+#homeButton {
+    font-size: 4rem;
+    font-family: 'Century Std';
+    margin-top: 15px;
+}
+
+#homeContent {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    width: 80%;
+    margin: 40px auto 40px auto;
+    padding: 0;
+    height: 500px;
+}
+
+#homeContent > img {
+    height: 500px;
+}
+
+#homeText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 50px;
+    padding: 15px 40px 15px 40px;
+    background-color:  #fffcf5;
+}
+
+#homeText > h3 {
+    font-size: 2.5rem;
+    font-family: 'Century Std';
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+#homeText > p {
+    font-size: 1rem;
+    margin-top: 5px;
+    margin-bottom: none;
+    padding: none;
+
+}
+
+#menuContainer {
+    background-color: #fffcf5;
+}
+
+.foodContainer {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin: 0px auto 0px auto;
+}
+
+.foodText {
+    width: 30%;
+    margin: 50px;
+}
+
+#homeButton {
+    font-size: 4rem;
+    font-family: 'Century Std';
+    margin-top: 15px;
+}
+
+#aboutContent {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    width: 80%;
+    margin: 40px auto 40px auto;
+    padding: 0;
+    height: 500px;
+}
+
+#aboutContent > img {
+    height: 500px;
+}
+
+#aboutText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 50px;
+    padding: 15px 40px 15px 40px;
+}
+
+#aboutText > h3 {
+    font-size: 2.5rem;
+    font-family: 'Century Std';
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+#aboutText > p {
+    font-size: 1rem;
+    margin-top: 5px;
+    margin-bottom: none;
+    padding: none;
+
+}
