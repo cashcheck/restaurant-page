@@ -1,1 +1,1 @@
-A restaurant page created using javascript split into different modules (one module per page). Practice for using webpack as module bundler as well as a bit of NPM to install packages. Also learned how to use the .gitignore file in order to ignore node_modules which got pretty big.
+A restaurant page created using javascript split into different modules (one module per page). Practice for using webpack as module bundler as well as a bit of NPM to install packages. Also learned how to use the .gitignore file in order to ignore node_modules which got pretty big
